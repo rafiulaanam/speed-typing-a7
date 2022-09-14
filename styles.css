@@ -191,6 +191,8 @@ button {
     flex-direction: column;
   }
   #histories{
-    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   }
 }
