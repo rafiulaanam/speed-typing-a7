@@ -122,7 +122,7 @@ const start = () => {
       startTime = new Date().getTime();
     }
     count--;
-  }, 1000);
+  }, 1000); 
 };
 
 // START Countdown
@@ -136,6 +136,6 @@ setInterval(() => {
   const currentTime = new Date().getTime(); 
   const timeSpent = Math.round((currentTime - startTime) / 1000);
 
-
+// time conditon
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
 }, 1000);
